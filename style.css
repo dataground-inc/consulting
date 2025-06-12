@@ -68,7 +68,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 12px 16px;
     background-color: #056FB810;
     border-radius: 8px;
 }
@@ -88,6 +88,14 @@ a {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.q-card .subTitle {
+    font-family: var(--64r-font-family);
+    font-size: var(--16r-font-size);
+    font-weight: var(--16r-font-weight);
+    letter-spacing: var(--16r-letter-spacing);
+    line-height: var(--16r-line-height);
 }
 
 .faq-card {
