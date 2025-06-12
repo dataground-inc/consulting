@@ -1,0 +1,132 @@
+a {
+    text-decoration: none;
+}
+
+.hero .title {
+    width: 100%;
+    text-align: center;
+}
+
+.hero .youtube {
+    width: 100%;
+    background-color: var(--gray-5);
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 12px #000000;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+
+.youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-family: var(--20b-font-family);
+    font-size: var(--20b-font-size);
+    font-weight: var(--20b-font-weight);
+    letter-spacing: var(--20b-letter-spacing);
+    line-height: var(--20b-line-height);
+    color: var(--gray-black);
+    align-self: stretch;
+}
+
+.subTitle {
+    font-family: var(--14r-font-family);
+    font-size: var(--14r-font-size);
+    font-weight: var(--14r-font-weight);
+    letter-spacing: var(--14r-letter-spacing);
+    line-height: var(--14r-line-height);
+    color: var(--gray-1);
+}
+
+.q-section .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+
+.q-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #056FB810;
+    border-radius: 8px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+}
+
+.icon i {
+    height: 100%;
+}
+
+.q-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.faq-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.faq-section .question {
+    font-family: var(--14r-font-family);
+    font-size: var(--14r-font-size);
+    font-weight: var(--14r-font-weight);
+    letter-spacing: var(--14r-letter-spacing);
+    line-height: var(--14r-line-height);
+    color: var(--gray-black);
+}
+
+.faq-section .answer {
+    font-family: var(--14r-font-family);
+    font-size: var(--14r-font-size);
+    font-weight: var(--14r-font-weight);
+    letter-spacing: var(--14r-letter-spacing);
+    line-height: var(--14r-line-height);
+    color: var(--gray-1);
+}
+
+.faq-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 12px 16px;
+    background-color: var(--gray-5);
+    border-radius: 8px;
+}
+
+.wrapper-16 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
